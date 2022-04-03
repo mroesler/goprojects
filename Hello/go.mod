@@ -1,4 +1,4 @@
-module github.com/mroesler/Hello
+module github.com/mroesler/goprojects
 
 go 1.18
 
