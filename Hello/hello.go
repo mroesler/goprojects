@@ -1,7 +1,16 @@
-package hello
+package main
 
-import "rsc.io/quote"
+import (
+	"fmt"
 
-func Hello() string {
+	"rsc.io/quote"
+)
+
+func main() {
+	fmt.Println(hello())
+}
+
+func hello() string {
+
 	return quote.Hello()
 }
